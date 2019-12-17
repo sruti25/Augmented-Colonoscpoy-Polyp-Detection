@@ -10,7 +10,7 @@ Dataset
 
 Network
 =======
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](network.png)
 
 # References:
 1. https://github.com/muntisa/Colonoscopy-polyps-detection-with-CNNs
