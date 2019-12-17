@@ -2,15 +2,17 @@
 
 This project implements a CNN based polyp detector.
 
-# Dataset
+Dataset
+=======
 1. Extracted from ASU Mayo Polyp Databse: https://polyp.grand-challenge.org/AsuMayo/
 2. Synthetic images generated using XD-Cycle GAN
 3. Combination of above two.
 
-# Network
+Network
+=======
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-===================================================
+Layer (type)                 Output Shape              Param  
+_________________________________________________________________
 conv2d_4 (Conv2D)            (None, 148, 148, 64)      1792      
 _________________________________________________________________
 activation_6 (Activation)    (None, 148, 148, 64)      0         
@@ -40,7 +42,7 @@ _________________________________________________________________
 dense_4 (Dense)              (None, 1)                 129       
 _________________________________________________________________
 activation_10 (Activation)   (None, 1)                 0         
-==============================================
+_________________________________________________________________
 
 # References:
 1. https://github.com/muntisa/Colonoscopy-polyps-detection-with-CNNs
